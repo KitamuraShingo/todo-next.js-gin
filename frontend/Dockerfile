@@ -12,6 +12,8 @@ COPY . .
 # パッケージをインストール
 RUN npm install
 
+RUN npm run build
+
 # ポート3000番を開放
 EXPOSE 3000
 
